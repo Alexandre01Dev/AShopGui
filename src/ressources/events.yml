@@ -1,0 +1,10 @@
+enable: off
+message: "&cL'evenement vient d'être reset pour tout le monde !"
+cancellingEvents:
+  Monday: ["15:37","15:54"]
+  Tuesday: ["23:01","17:08"]
+  Wednesday: ["23:01","17:08"]
+  Thursday: ["23:01","17:08"]
+  Friday: ["23:01","17:08"]
+  Saturday: ["23:01","17:08"]
+  Sunday: ["23:01","17:08"]

@@ -1,0 +1,19 @@
+#ITEMFLAG: WORD
+#ITEMFLAGS: [WORD]
+#DATA:
+
+config:
+  inventoryslot: 36
+  inventorytitle: 'Shop'
+inventories:
+    blocs:
+      Redirection: blocs
+      Slot: 24
+      Material: DIRT
+      Data: 1
+      Enchant: SHARPNESS
+      Enchants: [SHARPNESS,KNOCKBACK]
+      AddItemFlag:
+      AddItemFlags:
+      Name: '&cBlocs'
+      Lore: []

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Shop">
+    <output-path>$USER_HOME$/Desktop/Dev Reptilia</output-path>
+    <root id="archive" name="Shop.jar">
+      <element id="module-output" name="Shop1" />
+    </root>
+  </artifact>
+</component>

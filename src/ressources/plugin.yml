@@ -1,0 +1,9 @@
+name: AShopGUI
+version: 1.0
+main: be.alexandre01.shop.Main
+authors: [Alexandre01,_Nolt]
+softdepends: [Vault]
+api-version: 1.13
+commands:
+  shop:
+    description: Shop Command

@@ -1,0 +1,75 @@
+config:
+  inventoryslot: 36
+  inventorytitle: "&cBlocs"
+  start_price_event: "&eL'event vient de commencer."
+  endevent: "&cL'event de se terminer."
+  not_amout_message: "&cVous n'avez pas les fonds nécessaires."
+  buy_message: "&aVous venez d'effectuer un achat."
+  sell_message: "&aVous venez d'effectuer une vente."
+  not_enought_item: "&cVous n'avez pas assez d'items."
+  eventtimer: 30
+  runTimerAsyncOnEvent: true
+items:
+  next-page:
+    Slot: 24
+    Material: ARROW
+    Data: 1
+    Enchant: SHARPNESS
+    Enchants: [SHARPNESS,KNOCKBACK]
+    AddItemFlag:
+    AddItemFlags:
+    Name: '&cNEXT'
+    Lore: []
+    toPage: 1
+  last-page:
+    Slot: 37
+    Material: ARROW
+    Data: 1
+    Enchant: SHARPNESS
+    Enchants: [SHARPNESS,KNOCKBACK]
+    AddItemFlag:
+    AddItemFlags:
+    Name: '&cLAST PAGE'
+    Lore: []
+    toPage: 0
+  dirt:
+    Slot: 3
+    Material: DIRT
+    Data: 1
+    Enchant: SHARPNESS
+    Enchants: [SHARPNESS,KNOCKBACK]
+    AddItemFlag:
+    Force-update: true
+    AddItemFlags:
+    Name: '&cTerre'
+    Lore: ["%sell_price%","%player_balance%"]
+    Buy:
+      price: 100
+      give_current_item: true
+      orderPanel: true
+    Sell:
+      price: 20
+      price_event: 64
+      price_multiplier_up: 1.5
+      price_multiplier_down: 0.8
+      orderPanel: true
+  glass:
+    Slot: 39
+    Material: GLASS
+    Data: 1
+    Enchant: SHARPNESS
+    Enchants: [SHARPNESS,KNOCKBACK]
+    AddItemFlag:
+    AddItemFlags:
+    Name: '&cGlass'
+    Lore: []
+    Buy:
+      price: 100
+      give_current_item: true
+      orderPanel: true
+    Sell:
+      price: 20
+      price_event: 64
+      price_multiplier_up: 1.5
+      price_multiplier_down: 0.8
+      orderPanel: true

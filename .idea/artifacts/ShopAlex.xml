@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ShopAlex">
+    <output-path>D:/UHCAmnesy2/plugins/</output-path>
+    <root id="archive" name="AShopGUI.jar">
+      <element id="module-output" name="Shop1" />
+    </root>
+  </artifact>
+</component>
